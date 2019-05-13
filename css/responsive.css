@@ -1,0 +1,153 @@
+/* ####### RESPONSIVE ##########*/
+
+
+/* ####### DESKTOPS AND LAPTOPS ##########*/
+@media (min-width: 1200px) {
+
+    /* EVERYTHING IS FINE */
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+    /*## RECENT SINGLE ##*/
+
+    .rsingle-wrapper img {
+        height: 500px;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    /*## HOMEPAGE INDEX & NAVIGATION ##*/
+
+    .index-title h2 {
+        font-size: 3em;
+    }
+
+    .btn-general {
+        font-size: 12px;
+        padding: 6px 13px;
+    }
+
+    .dropdown-menu,
+    .dropdown-menu:active,
+    .dropdown-menu:focus {
+        background-color: transparent;
+        border-radius: 0px;
+        outline: none;
+        border: none;
+    }
+
+    .dropdown-divider {
+        width: 300px;
+    }
+
+    /*## HOMEPAGE BIOGRAPHY ##*/
+
+    .biography-title {
+        margin-right: 400px;
+    }
+
+    .biography-title h2 {
+        font-size: 3em;
+    }
+
+    /*## HOMEPAGE GALLERY ##*/
+
+    .gallery-title {
+        margin-right: 400px;
+    }
+
+    .gallery-title h2 {
+        font-size: 3em;
+    }
+
+    /*## HOMEPAGE MUSIC ##*/
+
+    .music-title {
+        margin-left: 400px;
+    }
+
+    .music-title h2 {
+        font-size: 3em;
+    }
+
+    /*## RECENT SINGLE ##*/
+
+    .rsingle-wrapper img {
+        height: 400px;
+    }
+
+    .carousel-caption {
+        height: 100px;
+    }
+
+    .carousel-caption h3 {
+        font-size: 12px;
+
+    }
+
+    #play,
+    #next,
+    #pre {
+        width: 20px;
+        height: 20px;
+        border: 0;
+        background-color: #702632;
+        border-radius: 50%;
+        outline: none;
+        cursor: pointer;
+        position: relative;
+        left: 50%;
+        margin-top: 20px;
+    }
+
+    #play img,
+    #next img,
+    #pre img {
+        width: 20px;
+        height: 20px;
+        left: 50%;
+        transform: translate(-30%, -20%);
+    }
+
+    #seek-bar {
+        width: 23vw;
+        height: 5px;
+        background-color: gray;
+        display: flex;
+        border-radius: 50px;
+        margin-left: 50px;
+        cursor: pointer;
+        margin-top: 20px;
+        margin-left: -6vw;
+        margin-bottom: 0px;
+        margin-top: -2px;
+    }
+
+    #handle {
+        width: 4px;
+        height: 4px;
+        background-color: #702632;
+        border-radius: 50%;
+        margin-left: -5px;
+        transform: scale(2);
+    }
+
+    /*## FOOTER ##*/
+
+    #footer {
+        height: 690px;
+    }
+
+    #footer-copyright p {
+        text-align: center;
+    }
+
+    #footer-menu {
+        display: none;
+    }
+
+}

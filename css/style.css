@@ -1,0 +1,613 @@
+/* ################# CSS GENERAL RULES ################# 
+
+    Font Family : Montserrat
+
+    Monarch : #702632 
+    Steel Gray: #40434E 
+    Wood Bark: #080705 
+    White: #fff 
+    Black: #000 
+
+*/
+
+::-webkit-scrollbar { 
+    width: 0px !important;
+} 
+
+html,
+body{
+    overflow-x: hidden;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+p{
+    text-align: justify;
+    font-size: 1em;
+    color: #A9A9A9;
+}
+
+/*########### CONTENT BOX (GENERIC) ##########*/
+
+.content-box {
+    padding: 50px 0;
+}
+
+.content-box-title {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 700;
+    color: #40434E;
+}
+
+.content-box-title-about {
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 400;
+    margin: 0 auto 30px auto;
+    color: #40434E;
+}
+
+.text-line {
+    width: 50px;
+    height: 2px;
+    background-color: #702632;
+    margin: 0 auto 30px auto;
+}
+
+/*########### GENERIC SIZES ##########*/
+
+.wl{
+    font-weight: 300;
+}
+
+.wxb{
+    font-weight: 800;
+}
+
+/*########### BUTTON GENERIC ##########*/
+
+.btn-general {
+    border-width: 2px;
+    border-radius: 0;
+    font-weight: 400;
+    font-size: 18px;
+    padding: 12px 26px;
+    text-transform: uppercase;
+}
+
+/*########### BUTTON WHITE ##########*/
+
+.btn-white {
+    border-color: #fff;
+    color: #fff;
+}
+
+.btn-white:hover{
+    background-color: #fff;
+    color: #40434E;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+/*########### BUTTON RED WINE ##########*/
+
+.btn-redwine {
+    border-color: #702632;
+    color: #702632;
+}
+
+.btn-redwine:hover{
+    background-color: #702632;
+    color: #fff;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+/*########### SOCIAL ##########*/
+
+.social-list {
+    padding-left: 0;
+}
+
+.social-list li {
+    list-style: none;
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    margin-right: 6px;
+    margin-top: 10px;
+}
+
+.social-icon a {
+    font-size: 17px;
+}
+
+.icon-gray i {
+    color: #40434E;
+}
+
+.icon-white i {
+    color: #fff;
+}
+
+.social-icon i:hover {
+    color: #e24862;
+}
+
+/*########### COLORED GENERIC ##########*/
+
+.colored-pink {
+    color: #e24862;
+}
+
+.colored-wine {
+    color: #702632;
+}
+
+
+
+/*########### BUTTON BACK TO TOP ##########*/
+
+.back-to-top-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-size: 20px;
+    padding: 3px 16px;
+    display: none;
+}
+
+.back-to-top-btn:focus,
+.back-to-top-btn:hover {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+/* ################# HOMEPAGE INDEX #################*/
+
+.index-wrapper{
+    width: 100%;
+    height: 100%;
+    background-image: url("../img/maing/background1.jpg");
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #fff;
+}
+
+.navbar-exclusive{
+    background-color: rgba(0,0,0,0.7);
+    margin: 0;
+    width: 100%;
+}
+
+.container-fluid{
+    padding: 0;
+    margin: 0;
+}
+
+.navbar-brand img{
+    background: #fff;
+    padding: 0.3em;
+    border-radius: 10px;
+    height: 1.5em;
+}
+
+.navbar-toggler,
+.navbar-toggler:active,
+.navbar-toggler:focus{
+    border: none;
+    outline: none;
+}
+
+.navbar-toggler i{
+    background: #fff;
+    padding: 0.5em 0.8em 0.5em 0.8em;
+    color: #e24862;
+    border-radius: 5px;
+}
+
+.dropdown-menu,
+.dropdown-menu:active,
+.dropdown-menu:focus{
+    background-color: rgba(0,0,0,0.7);
+    margin-top: 9px;
+    border-radius: 0px;
+}
+
+.dropdown-item{
+    color: #fff;
+    border-radius: 3px; 
+    background: none !important;
+}
+
+.normal{
+    font-size: 0.9em;
+    margin: 0px 10px;
+    color: #fff !important;
+}
+
+.navbar-nav li a:hover{
+    color: #e24862 !important;
+}
+
+.index-title{
+    text-align: center;
+    margin-top: 250px;
+    height: 570px;
+}
+
+.index-title h2{
+    font-size: 4em;
+    font-weight: 800;
+    text-transform: uppercase;
+    text-shadow: 2px 2px black;
+}
+
+.index-title a i{
+    margin-left: 10px;
+}
+
+hr{
+    width: 100px;
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
+}
+
+/* ################# ABOUT #################*/
+
+.about-wrapper{
+    width: 100%;
+    height: 100%;
+    margin-bottom: 50px;
+}
+
+.abg{
+    background-image: url("../img/maing/about1.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    border-right: 150px solid #fff;
+    border-top: 700px solid transparent;
+    margin-top: 5em;
+}
+
+.atxt{
+    margin-top: 5em;
+    margin-left: 4em;
+    margin-right: 4em;
+}
+
+.atxt h2{
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+#about-button{
+    margin-top: 30px;
+    margin-left: 4em;
+    margin-right: 4em;
+}
+
+/* ################# RECENT GALLERY #################*/
+
+.rgallery-wrapper{
+    margin-bottom: 50px;
+}
+
+.row.no-spaces [class*="col-md"] {
+    padding: 0;
+}
+
+.img-wrapper {
+    overflow: hidden;
+}
+
+.img-wrapper img {
+    transition: .5s;
+}
+
+.img-wrapper img:hover {
+    transform: scale(1.5);
+    cursor: zoom-in;
+}
+
+#gallery-button a {
+    display: block;
+    width: 50%;
+    margin: 50px auto 0 auto;
+}
+
+/* ################# RECENT SINGLE/ALBUM #################*/
+
+#demo{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.rsingle-wrapper img{
+    width: 100%;
+    height: 600px;
+    border-radius: 10px;
+}
+
+.carousel-caption{
+    background-color: rgba(255,255,255,0.4);
+    border-radius: 10px;
+    right: 25%;
+    left: 25%;
+}
+
+.carousel-caption h3{
+    font-size: 22px;
+    margin-bottom: -30px;
+    text-transform: uppercase;
+    font-weight: 800;
+    text-shadow: 2px 2px black;
+}
+
+/*############### AUDIO ##########*/
+
+#main {
+    height: 150px;
+    position: relative;
+    left: 25%;
+    z-index: 999;
+}
+
+#player {
+    padding: 25px;
+    color: #333;
+}
+
+
+#buttons {
+    height: 50px;
+    width: 100%;
+    position: relative;
+    left: -80%;
+}
+
+#play,
+#next,
+#pre {
+    width: 50px;
+    height: 50px;
+    border: 0;
+    background-color: #702632;
+    border-radius: 50%;
+    outline: none;
+    cursor: pointer;
+    position: relative;
+    left: 50%;
+    margin-top: 30px;
+}
+
+
+#play img,
+#next img,
+#pre img {
+    width: 50px;
+    height: 50px;
+    left: 50%;
+    transform: translate(-11%, 0%);
+}
+
+#seek-bar {
+    width: 23vw;
+    height: 5px;
+    background-color: gray;
+    display: flex;
+    border-radius: 50px;
+    margin-left: 50px;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: -4vw;
+    margin-bottom: 0px;
+    margin-top: 50px;
+}
+
+#fill {
+    height: 5px;
+    background-color: #702632;
+    border-radius: 20px;
+}
+
+#handle {
+    width: 8px;
+    height: 8px;
+    background-color: #702632;
+    border-radius: 50%;
+    margin-left: -5px;
+    transform: scale(2);
+}
+
+#songs-button a {
+    display: block;
+    width: 50%;
+    margin: 0 auto 0 auto;
+}
+
+
+/*########### FOOTER ##########*/
+
+
+#footer {
+    background-image: url("../img/maing/footer.jpg");
+    background-size: cover;
+    background-position: center;
+    padding-top: 150px;
+    margin-top: 50px;
+    height: 680px;
+}
+
+#contact-left h3,
+#contact-right h3 {
+    color: #fff;
+    font-size: 27px;
+    font-weight: 700;
+}
+
+#contact-left p {
+    color: #fff;
+    margin-bottom: 50px;
+}
+
+#phone-email strong {
+    letter-spacing: 2px;
+}
+
+.form-control {
+    background: transparent;
+    border-radius: 0;
+    border-color: #fff;
+    font-size: 17px;
+    font-weight: 300;
+    padding: 8px 16px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+#send-btn a {
+    margin-bottom: 10px;
+}
+
+#footer-copyright {
+    margin-top: 90px;
+}
+
+#footer-copyright p {
+    margin: 0;
+    color: #fff;
+}
+
+#footer-menu {
+    margin-top: 90px;
+    float: left;
+    color: #fff;
+}
+
+#footer-menu ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+#footer-menu ul li {
+    display: inline-block;
+}
+
+#footer-menu a {
+    color: #fff;
+    font-size: 13px;
+    font-weight: 300;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+#footer-menu a:hover {
+    color: #e24862;
+}
+
+/*###################################################################################### BIOGRAPHY HTML ##########################################################################*/
+
+/* ################# HOMEPAGE BIOGRAPHY #################*/
+
+.homebiography-wrapper{
+    width: 100%;
+    height: 100%;
+    background-image: url("../img/maing/biography.jpg");
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #fff;
+}
+
+.biography-title{
+    text-align: center;
+    margin-top: 250px;
+    margin-right: 550px;
+    height: 570px;
+}
+
+.biography-title h2{
+    font-size: 4em;
+    font-weight: 800;
+    text-transform: uppercase;
+    text-shadow: 2px 2px black;
+}
+
+/* ################# BIOGRAPHY TEXT #################*/
+
+.biography-wrapper p{
+    margin: 0 10%;
+}
+
+/*###################################################################################### GALLERY HTML ##########################################################################*/
+
+/* ################# HOMEPAGE GALLERY #################*/
+
+.homegallery-wrapper{
+    width: 100%;
+    height: 100%;
+    background-image: url("../img/maing/gallery.jpg");
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #fff;
+}
+
+.gallery-title{
+    text-align: center;
+    margin-top: 250px;
+    margin-right: 550px;
+    height: 570px;
+}
+
+.gallery-title h2{
+    font-size: 4em;
+    font-weight: 800;
+    text-transform: uppercase;
+    text-shadow: 2px 2px black;
+}
+
+/*###################################################################################### MUSIC HTML ##########################################################################*/
+
+.homemusic-wrapper{
+    width: 100%;
+    height: 100%;
+    background-image: url("../img/maing/music.jpg");
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #fff;
+}
+
+.music-title{
+    text-align: center;
+    margin-top: 250px;
+    margin-left: 550px;
+    height: 570px;
+}
+
+.music-title h2{
+    font-size: 4em;
+    font-weight: 800;
+    text-transform: uppercase;
+    text-shadow: 2px 2px black;
+}
